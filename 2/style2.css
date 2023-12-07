@@ -1,0 +1,38 @@
+.skill-img img{
+              max-width: 2150px;
+              margin-right: 20%;
+              opacity: 0;
+              animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+              animation-delay: 2s, 3s;
+ }
+ .btn_Skill{
+              border: none;
+              padding: 10px 150px;
+              margin-top: 2%;
+              background:#0ef;
+              border-radius: 30px;
+              box-shadow:  0 0 15px rgb(243, 240, 243);
+              font-size: 20px;
+              color: #1f242d;
+              font-weight: 600;
+              letter-spacing: 1px;
+              opacity: 0;
+              animation: slideTop 1s ease forwards;
+              animation-delay: 2s;
+ }
+ .btn_Skill:hover{
+              display: inline-block;
+              background:#1f242d;
+              border-radius: 30px;
+              box-shadow: 0 0 10px #0ef;
+              font-size: 20px;
+              color:#0ef;
+              animation: slideTop 1s ease forwards;
+              animation-delay: 2s;    
+ }
+.lang img{
+ background: #0ef;
+ border-radius: 20px;
+ color: #1f242d;
+ box-shadow: 0 0 20px #0ef
+}
